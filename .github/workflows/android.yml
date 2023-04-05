@@ -101,7 +101,7 @@ jobs:
         run: ./gradlew publishToSonatype closeAndReleaseSonatypeStagingRepository -P version=${TAG:1}
 
   test:
-    name: Start Genymotion Cloud SaaS instance with ADB serial port
+    name: Start Genymotion Cloud SaaS instance
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
