@@ -9,6 +9,20 @@ _Part of the [Solana Mobile Stack](https://github.com/solana-mobile/solana-mobil
 
 Join us on [Discord](https://discord.gg/solanamobile)
 
+## See our [documentation website](https://docs.solanamobile.com/) for:
+- [General Development Setup](https://docs.solanamobile.com/getting-started/development-setup)
+- React Native
+    - [Setup](https://docs.solanamobile.com/react-native/setup)
+    - [Quickstart](https://docs.solanamobile.com/react-native/quickstart)
+    - [Solana Mobile Stack Overview](https://docs.solanamobile.com/getting-started/overview)
+- Android
+    - [Setup](https://docs.solanamobile.com/android-native/setup)
+    - [Quickstart](https://docs.solanamobile.com/android-native/quickstart)
+- Unity
+    - [Overview](https://docs.solanamobile.com/additional-sdks/unity_intro#solana-unity-sdk-setup)
+- [Sample Apps](https://docs.solanamobile.com/sample-apps/sample_app_overview)
+
+
 ## Summary
 
 The Mobile Wallet Adapter specification, Android and JavaScript reference implementations, a demo wallet and dapps, and related documentation.
@@ -21,6 +35,8 @@ This repository is intended for consumption by Solana mobile developers.
 
 - The [Mobile Wallet Adapter protocol specification](https://solana-mobile.github.io/mobile-wallet-adapter/spec/spec.html)
 - An [integration guide](android/docs/integration_guide.md) for Android wallets and dapps
+    - [React Native Integration Guide](https://docs.solanamobile.com/react-native/mwa_integration_rn)
+    - [Android Native Integration Guide](https://docs.solanamobile.com/android-native/mwa_integration)
 - An Android library for [wallets](android/walletlib) to provide Mobile Wallet Adapter transaction signing services to dapps
 - An Android library for [dapps](android/clientlib) to consume Mobile Wallet Adapter transaction signing services
 - A [fake wallet](android/fakewallet) and a [fake dapp](android/fakedapp) demonstrating how to integrate walletlib and clientlib
@@ -34,9 +50,18 @@ This repository is intended for consumption by Solana mobile developers.
 
 All Android projects within this repository can be built using [Android Studio](https://developer.android.com/studio)
 
+Documentation site:
+- [General Development Setup](https://docs.solanamobile.com/getting-started/development-setup)
+
 ### How to reference these libraries in your project
 
 #### For dApps:
+
+For a more thorough setup guide, see our documentation site:
+- Android:
+    - [Setup](https://docs.solanamobile.com/android-native/setup)
+- React Native:
+    - [Setup](https://docs.solanamobile.com/react-native/setup)
 
 Java
 ```
